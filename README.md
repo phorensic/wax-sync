@@ -6,7 +6,7 @@ This script pulls a snapshot from waxsweden, decompresses it, renames it, and th
 The name of the snapshot must be manually edited to the latest one for now, until I can auto-parse from the website.
 
 nodeos.sh
-This runs the main node process with the snapshot added as an argument. You must delete the snapshot argument for subsequent runs. Note: simply commenting out that line does not work.
+This runs the main node process with the snapshot added as an argument. You must delete the snapshot argument for subsequent runs. Note: simply commenting out that line does not work. Must be run as root in order to create the http server.
 
 config.ini
 The ultimate p2p syncing config. This has been tuned to the Nth degree for my server. Use it as a good starting point for your server.
